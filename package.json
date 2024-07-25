@@ -1,0 +1,29 @@
+{
+    "name": "jetton-transfer",
+    "version": "1.0.0",
+    "description": "A library for transferring jettons in TON",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@orbs-network/ton-access": "^2.3.3",
+        "@ton/ton": "^14.0.0",
+        "ton-crypto": "^3.2.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.12",
+        "typescript": "^4.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yourusername/jetton-transfer.git"
+    },
+    "author": "codetentacles",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yourusername/jetton-transfer/issues"
+    },
+    "homepage": "https://github.com/yourusername/jetton-transfer#readme"
+}
