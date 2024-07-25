@@ -25,5 +25,17 @@
     "bugs": {
         "url": "https://github.com/yourusername/jetton-transfer/issues"
     },
-    "homepage": "https://github.com/yourusername/jetton-transfer#readme"
+    "homepage": "https://github.com/yourusername/jetton-transfer#readme",
+    "contributors": [
+    {
+      "name": "ajaycodetentacles",
+      "email": "ajaycodetentacles@gmail.com",
+      "url": "https://github.com/ajaycodetentacles"
+    },
+    {
+      "name": "rahulcodetentacles",
+      "email": "rahulcodetentacles@gmail.com",
+      "url": "https://github.com/rahulcodetentacles"
+    }
+  ]
 }
