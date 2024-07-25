@@ -1,5 +1,5 @@
-# Jetton Transfer
 
+## Jetton Transfer
 A library for transferring jettons in TON (The Open Network) using Node.js.
 
 ## Installation
@@ -7,15 +7,20 @@ A library for transferring jettons in TON (The Open Network) using Node.js.
 First, install the package using npm:
 
 ```bash
-npm install jetton-transfer 
-
-Usage
+  npm install jetton-transfer 
+```
+    
+## Usage
 Import the Library
-
+```javascript
 import { sendJetton } from 'jetton-transfer';
 
+```
 
-Exlample
+
+## Exlample
+
+```javascript
 import { sendJetton } from 'jetton-transfer';
 
 const mnemonic = "your mnemonic phrase here";
@@ -33,14 +38,15 @@ sendJetton(mnemonic, fromWallet, toWallet, amount, jettonMasterAddress, network)
     console.error('Error during jetton transfer:', error);
   });
 
-API
 
-`sendJetton`
-
+```
+## API
 Transfers jettons from one wallet to another.
 
-Parameters
-
+```javascript
+`sendJetton`
+```
+## Parameters
 mnemonic (string): The mnemonic phrase of the sender's wallet.
 
 fromWallet (string): The address of the sender's wallet.
@@ -52,14 +58,9 @@ amount (string): The amount of jettons to transfer (in TON, will be converted to
 jettonMasterAddress (string): The address of the jetton master contract.
 
 network (string): The network to use ("testnet" or "mainnet"). Defaults to "testnet".
-
-
-Returns
+## Returns
 
 A Promise that resolves when the transfer is complete.
-
-
-
+## Note
 
 Replace the placeholders like `"your mnemonic phrase here"` and the wallet addresses with the appropriate values. Also, make sure to update the GitHub URL with your actual repository link. This `README.md` provides a comprehensive guide on how to use, develop, and contribute to the `jetton-transfer` library.
-
